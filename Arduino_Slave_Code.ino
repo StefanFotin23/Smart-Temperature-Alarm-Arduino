@@ -36,7 +36,7 @@ void loop() {
     if (temp != 0) {
         lcd.clear();
       lcd.print("Temp refresh");
-      delay(1000);
+      delay(500);
         lcd.clear();
       lcd.print(temp / 100);
       lcd.print(".");
