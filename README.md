@@ -10,9 +10,9 @@ Components:
   - 2 x Arduino UNO R3
   - LCD 1602 I2C
   - 4×4 Keypad
-  - Senzor de temperatura
-  - Buzzer Piezo
-  - Tranzistor NPN
+  - Temperature Sensor
+  - Piezo Buzzer
+  - NPN Transistor
   - LED
-  - Rezistori
-  - Fire
+  - Resistors
+  - Wires
