@@ -1,6 +1,6 @@
 # Arduino-Temperature-Alarm-
-Arduino Temperature Alarm with real time temperature on LCD display.
 
-The project uses 2 Arduino boards, I2C communication protocol between them, and an LCD display to show the real time temperature.
-We use temperature sensors to take information from environment and use an alarm speaker with a red led to signal that we have
-an emergency (temperature out of normal scope).
+This device offers real-time data about the temperature measured by an analog temperature sensor and displays that information on an LCD display.
+It also has an alarm system that notifies the user through visual (LED) and audio (buzzer) signals when the temperature exceeds a specified limit.
+The limit is set by default (in the code) at 24°C and can be modified by the user by pressing the 'A' button on the keypad and then entering the desired temperature limit.
+The new limit can have values between 0°C and 99°C. After entering the two digits that form the new temperature ('xx'), the temperature will be automatically set to the new value.
